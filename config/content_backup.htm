@@ -12,3 +12,111 @@
 <h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
+<p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
+<h1>python 3.8.2</h1>
+<h2>basic Win10 portable programming</h2>
+<p>在你的可攜下創建一個data子目錄  :  </p>
+<p></p>
+<p><a href="https://git-scm.com/"><img alt="Git" height="46" src="https://git-scm.com/images/logo@2x.png" width="110"/></a><span></span><span id="tagline">--everything-is-local   </span></p>
+<p><span id="tagline"><a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a>         </span></p>
+<p><span id="tagline">要用git指令要有portablegit 。data下子目錄存取為portablegit(需與啟動檔配合)。</span></p>
+<p><span></span>start.bat (參考) :</p>
+<p><img alt="" height="177" src="/images/portablegit.png" width="600"/></p>
+<p></p>
+<p><span></span>=================================================================</p>
+<p><span></span></p>
+<table bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td><img alt="Scintilla icon" border="3" height="64" src="https://www.scintilla.org/SciTEIco.png" width="64"/></td>
+<td><a href="https://www.scintilla.org/index.html"><span size="5" style="font-size: x-large;">Download Scintilla and SciTE</span></a></td>
+</tr>
+</tbody>
+</table>
+<p>編輯器(用來創建start.bat , stop.bat)<span><a href="https://www.scintilla.org/SciTEDownload.html"><br/>https://www.scintilla.org/SciTEDownload.html</a></span></p>
+<p><span>解開檔案為wscite</span></p>
+<p><span></span>start.bat  :</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
+set Disk=y
+subst %Disk%: "data"
+
+%Disk%:
+
+set HomePath=%Disk%:\home_mdecourse
+set HomeDrive=%Disk%:\home_mdecourse
+set Home=%Disk%:\home_mdecourse
+set USERPROFILE=%Disk%:\home_mdecourse
+
+REM for putty
+set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe
+
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+
+set PYTHONPATH=%Disk%:\py38\DLLs;%Disk%:\py38\Lib;%Disk%:\py38\Lib\site-packages;
+set PYTHONHOME=%Disk%:\py38
+
+set path_python=%Disk%:\py38;%Disk%:\py38\Scripts;
+set path_msys2=%Disk%:\msys64\mingw64\bin;
+REM coreutils is for compiling fossil scm
+set path_coreutils=%Disk%:\coreutils-5.3.0\bin;%Disk%:\depends22_x64;
+set path_tcc=%Disk%:\tcc;
+set path_cmake=%Disk%:\cmake-3.10.1-win64-x64\bin;
+set path_nodejs=Disk%:\nodejs;%Disk%:\nodejs\appdata\roaming\npm;
+set path_git=%Disk%:\portablegit\bin;
+set path_xming=%Disk%:\Xming;
+set path_latex=%%Disk%:\Pandoc;%Disk%:\TinyTeX\bin\win32;
+
+path=%Disk%:;%path_python%;%path_msys2%;%path_tcc%;%path_git%;%path_cmake%;%path_coreutils%;
+
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+
+start /MIN %Disk%:\wscite\SciTE.exe
+start /MIN %Disk%:\wscite\SciTE.exe
+
+Exit</pre>
+<p>stop.bat</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
+set Disk=y
+path=%PATH%;
+ 
+taskkill /IM python.exe /F
+taskkill /IM pythonw.exe /F
+taskkill /IM scite.exe /F
+taskkill /IM ShareX.exe /F
+ 
+REM ????????????
+subst %Disk%: /D
+REM ?? cmd ????
+taskkill /IM cmd.exe /F
+ 
+EXIT</pre>
+<p>================================================================</p>
+<p><span></span></p>
+<p><a href="https://www.python.org/"><img alt="python™" class="python-logo" height="82" src="https://www.python.org/static/img/python-logo@2x.png" width="290"/></a></p>
+<p><a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+<p>選取需要的版本(EX : 3.8.2) , 點取執行檔<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a></p>
+<p><span>data下子目錄</span>存取的名稱要跟執行檔相配合(EX : py38)</p>
+<p><img alt="" height="502" src="/images/sitep382.png" width="600"/></p>
+<p><span></span></p>
+<p><span></span></p>
+<p><span></span>==============================================================</p>
+<div class="buttonbar">
+<div><form action="https://www.paypal.com/cgi-bin/webscr" method="post"></form></div>
+</div>
+<div class="maincontent">
+<h4>HxD - Freeware Hex Editor and Disk Editor</h4>
+<div><a href="https://mh-nexus.de/en/graphics/HxDShotLarge.png"><img alt="Mini screenshot of HxD hex editor and disk editor" src="https://mh-nexus.de/en/graphics/MiniShotHxD.png"/></a>
+<div></div>
+</div>
+</div>
+<p><a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a>    </p>
+<p>選取該version區目前適合的版本</p>
+<p></p>
+<p>================================================================</p>
+<p></p>
+<p></p>
