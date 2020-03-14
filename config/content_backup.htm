@@ -22,8 +22,20 @@
 <p><span id="tagline">要用git指令要有portablegit 。data下子目錄存取為portablegit(需與啟動檔配合)。</span></p>
 <p><span></span>start.bat (參考) :</p>
 <p><img alt="" height="177" src="/images/portablegit.png" width="600"/></p>
-<p></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
 <p><span></span>=================================================================</p>
+<p><a href="https://www.python.org/"><img alt="python™" class="python-logo" height="82" src="https://www.python.org/static/img/python-logo@2x.png" width="290"/></a></p>
+<p><a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+<p>選取需要的版本(EX : 3.8.2) </p>
+<p>點取執行檔<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a></p>
+<p><span>data下子目錄</span>存取的名稱要跟執行檔相配合(EX : py38)</p>
+<p><img alt="" height="502" src="/images/sitep382.png" width="600"/></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
 <p><span></span></p>
 <table bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -35,6 +47,10 @@
 </table>
 <p>編輯器(用來創建start.bat , stop.bat)<span><a href="https://www.scintilla.org/SciTEDownload.html"><br/>https://www.scintilla.org/SciTEDownload.html</a></span></p>
 <p><span>解開檔案為wscite</span></p>
+<p><span>通過打開SciTE.exe  \ Option \ Open Global Options File</span></p>
+<p><span>找到code.page的部分 , 把code.page=0給註記掉 , 並把code.page=65001取消註記</span></p>
+<p><span><img alt="" height="785" src="/images/code65001-1.png" width="600"/></span></p>
+<p><img alt="" height="789" src="/images/codepage65001-2.png" width="600"/></p>
 <p><span></span>start.bat  :</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
 set Disk=y
@@ -79,6 +95,7 @@ start /MIN %Disk%:\wscite\SciTE.exe
 start /MIN %Disk%:\wscite\SciTE.exe
 
 Exit</pre>
+<p><br/><br/></p>
 <p>stop.bat</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
 set Disk=y
@@ -95,28 +112,38 @@ REM ?? cmd ????
 taskkill /IM cmd.exe /F
  
 EXIT</pre>
+<p>-</p>
+<p>假使要快速比較修改前後 :，可使用一個工具 : </p>
+<p><br/><img height="32" src="http://kdiff3.sourceforge.net/lo32-app-kdiff3.png" width="32"/><span> </span>KDiff3 - Home</p>
+<p><a href="http://kdiff3.sourceforge.net/">http://kdiff3.sourceforge.net/</a></p>
+<p><img alt="" height="101" src="/images/hxd011.png" width="600"/></p>
+<p></p>
+<p>可即時看到檔案間的差別</p>
+<p>也可以用來比較Tiny C Compiler  </p>
+<p><a href="https://directory.fsf.org/wiki/Tiny_C_Compiler">https://directory.fsf.org/wiki/Tiny_C_Compiler</a>  <span>檔案編輯前後的差異</span></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
 <p>================================================================</p>
-<p><span></span></p>
-<p><a href="https://www.python.org/"><img alt="python™" class="python-logo" height="82" src="https://www.python.org/static/img/python-logo@2x.png" width="290"/></a></p>
-<p><a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
-<p>選取需要的版本(EX : 3.8.2) , 點取執行檔<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a></p>
-<p><span>data下子目錄</span>存取的名稱要跟執行檔相配合(EX : py38)</p>
-<p><img alt="" height="502" src="/images/sitep382.png" width="600"/></p>
-<p><span></span></p>
-<p><span></span></p>
-<p><span></span>==============================================================</p>
-<div class="buttonbar">
-<div><form action="https://www.paypal.com/cgi-bin/webscr" method="post"></form></div>
-</div>
 <div class="maincontent">
 <h4>HxD - Freeware Hex Editor and Disk Editor</h4>
 <div><a href="https://mh-nexus.de/en/graphics/HxDShotLarge.png"><img alt="Mini screenshot of HxD hex editor and disk editor" src="https://mh-nexus.de/en/graphics/MiniShotHxD.png"/></a>
 <div></div>
 </div>
 </div>
-<p><a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a>    </p>
+<p><a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a>     </p>
 <p>選取該version區目前適合的版本</p>
-<p></p>
+<p><span>利用 HxD 修改 pip.exe 中python.exe 的所在位置(pip.exe是存取在p38的Scripts裡) , HxD 開啟之後搜尋c:\py38\python.exe , 然後將滑鼠停在 c 然後輸y:\p37\python.exe, 以便讓可攜系統啟動後, 可以將指令搜尋路徑設到 y:\p38\Scripts , 可以直接以</span></p>
+<p><span>                                        "pip install "指令安裝套件.</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">pip install Flask Markdown lxml bs4 flask_cors pelican leo </pre>
+<p><br/><br/></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
 <p>================================================================</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 <p></p>
 <p></p>

@@ -168,7 +168,8 @@ img.add_border {
 <p><span></span>=================================================================</p>
 <p><a href="https://www.python.org/"><img alt="python™" class="python-logo" height="82" src="https://www.python.org/static/img/python-logo@2x.png" width="290"/></a></p>
 <p><a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
-<p>選取需要的版本(EX : 3.8.2) , 點取執行檔<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a></p>
+<p>選取需要的版本(EX : 3.8.2) </p>
+<p>點取執行檔<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a></p>
 <p><span>data下子目錄</span>存取的名稱要跟執行檔相配合(EX : py38)</p>
 <p><img alt="" height="502" src="./../images/sitep382.png" width="600"/></p>
 <p>.</p>
@@ -234,7 +235,7 @@ start /MIN %Disk%:\wscite\SciTE.exe
 start /MIN %Disk%:\wscite\SciTE.exe
 
 Exit</pre>
-<p></p>
+<p><br/><br/></p>
 <p>stop.bat</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
 set Disk=y
@@ -251,6 +252,15 @@ REM ?? cmd ????
 taskkill /IM cmd.exe /F
  
 EXIT</pre>
+<p>-</p>
+<p>假使要快速比較修改前後 :，可使用一個工具 : </p>
+<p><br/><img height="32" src="http://kdiff3.sourceforge.net/lo32-app-kdiff3.png" width="32"/><span> </span>KDiff3 - Home</p>
+<p><a href="http://kdiff3.sourceforge.net/">http://kdiff3.sourceforge.net/</a></p>
+<p><img alt="" height="101" src="./../images/hxd011.png" width="600"/></p>
+<p></p>
+<p>可即時看到檔案間的差別</p>
+<p>也可以用來比較Tiny C Compiler  </p>
+<p><a href="https://directory.fsf.org/wiki/Tiny_C_Compiler">https://directory.fsf.org/wiki/Tiny_C_Compiler</a>  <span>檔案編輯前後的差異</span></p>
 <p>.</p>
 <p>..</p>
 <p>...</p>
@@ -263,10 +273,17 @@ EXIT</pre>
 </div>
 <p><a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a>     </p>
 <p>選取該version區目前適合的版本</p>
+<p><span>利用 HxD 修改 pip.exe 中python.exe 的所在位置(pip.exe是存取在p38的Scripts裡) , HxD 開啟之後搜尋c:\py38\python.exe , 然後將滑鼠停在 c 然後輸入y:\p37\python.exe, 以便讓可攜系統啟動後, 可以將指令搜尋路徑設到 y:\p38\Scripts , 這樣就可以直接以 </span><span>"pip install " 指令安裝套件.</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">pip install Flask Markdown lxml bs4 flask_cors pelican leo </pre>
+<p><br/><br/></p>
 <p>.</p>
 <p>..</p>
 <p>...</p>
 <p>================================================================</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 <p></p>
 <p></p><br />python 3.8.2 << <a href='python 3.8.2.html'>Previous</a> </div>
         
