@@ -100,17 +100,16 @@ Exit</pre>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
 set Disk=y
 path=%PATH%;
- 
+
 taskkill /IM python.exe /F
 taskkill /IM pythonw.exe /F
-taskkill /IM scite.exe /F
-taskkill /IM ShareX.exe /F
- 
-REM ????????????
+taskkill /IM node.exe /F
+taskkill /IM Range.exe /F
+taskkill /IM SciTE.exe /F
+REM 終止虛擬硬碟與目錄的對應
 subst %Disk%: /D
-REM ?? cmd ????
+REM 關閉 cmd 指令視窗
 taskkill /IM cmd.exe /F
- 
 EXIT</pre>
 <p>-</p>
 <p>假使要快速比較修改前後 :，可使用一個工具 : </p>
@@ -133,14 +132,45 @@ EXIT</pre>
 </div>
 <p><a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a>     </p>
 <p>選取該version區目前適合的版本</p>
-<p><span>利用 HxD 修改 pip.exe 中python.exe 的所在位置(pip.exe是存取在p38的Scripts裡) , HxD 開啟之後搜尋c:\py38\python.exe , 然後將滑鼠停在 c 然後輸y:\p37\python.exe, 以便讓可攜系統啟動後, 可以將指令搜尋路徑設到 y:\p38\Scripts , 可以直接以</span></p>
-<p><span>                                        "pip install "指令安裝套件.</span></p>
+<p><span>利用 HxD 修改 pip.exe 中python.exe 的所在位置(pip.exe是存取在p38的Scripts裡) , HxD 開啟之後搜尋c:\py38\python.exe , 然後將滑鼠停在 c 然後輸入y:\p37\python.exe, 以便讓可攜系統啟動後, 可以將指令搜尋路徑設到 y:\p38\Scripts , 這樣就可以直接以 </span><span>"pip install " 指令安裝套件.</span></p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">pip install Flask Markdown lxml bs4 flask_cors pelican leo </pre>
 <p><br/><br/></p>
 <p>.</p>
 <p>..</p>
 <p>...</p>
 <p>================================================================</p>
+<h4>MSYS2 installer</h4>
+<p>MSYS2 : <a href="https://www.msys2.org/">https://www.msys2.org/</a></p>
+<p><img alt="" height="157" src="/images/MSYS2.png" width="600"/></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
+<h4>ShareX</h4>
+<p>ShareX : <a href="https://getsharex.com/">https://getsharex.com/</a></p>
+<p><img alt="" height="170" src="/images/shareX.png" width="600"/></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
+<h4>Tmp (Y\tmp : git clone .....)</h4>
+<p><img alt="" height="172" src="/images/tmp.png" width="600"/></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
+<header class="site-header"><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"><img alt="Flutter logo" caption="false" height="117" src="https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup.png" width="400"/></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between">Flutter : <a href="https://github.com/flutter/flutter">https://github.com/flutter/flutter</a></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"><img caption="false" height="73" src="/images/flutter.png" width="500"/></nav></header>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
+<h4><img caption="false" height="80" src="https://www.fossil-scm.org/index.html/doc/trunk/www/fossil3.gif" width="80"/>Fossil</h4>
+<p><a href="https://www.fossil-scm.org/index.html/doc/trunk/www/build.wiki">https://www.fossil-scm.org/index.html/doc/trunk/www/build.wiki</a></p>
+<p><img alt="" height="91" src="/images/fossil.png" width="600"/></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 <p></p>
 <p></p>
 <p></p>

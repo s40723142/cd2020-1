@@ -240,17 +240,16 @@ Exit</pre>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
 set Disk=y
 path=%PATH%;
- 
+
 taskkill /IM python.exe /F
 taskkill /IM pythonw.exe /F
-taskkill /IM scite.exe /F
-taskkill /IM ShareX.exe /F
- 
-REM ????????????
+taskkill /IM node.exe /F
+taskkill /IM Range.exe /F
+taskkill /IM SciTE.exe /F
+REM 終止虛擬硬碟與目錄的對應
 subst %Disk%: /D
-REM ?? cmd ????
+REM 關閉 cmd 指令視窗
 taskkill /IM cmd.exe /F
- 
 EXIT</pre>
 <p>-</p>
 <p>假使要快速比較修改前後 :，可使用一個工具 : </p>
@@ -280,6 +279,41 @@ EXIT</pre>
 <p>..</p>
 <p>...</p>
 <p>================================================================</p>
+<h4>MSYS2 installer</h4>
+<p>MSYS2 : <a href="https://www.msys2.org/">https://www.msys2.org/</a></p>
+<p><img alt="" height="157" src="./../images/MSYS2.png" width="600"/></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
+<h4>ShareX</h4>
+<p>ShareX : <a href="https://getsharex.com/">https://getsharex.com/</a></p>
+<p><img alt="" height="170" src="./../images/shareX.png" width="600"/></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
+<h4>Tmp (Y\tmp : git clone .....)</h4>
+<p><img alt="" height="172" src="./../images/tmp.png" width="600"/></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
+<header class="site-header"><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"><img alt="Flutter logo" caption="false" height="117" src="https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup.png" width="400"/></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between">Flutter : <a href="https://github.com/flutter/flutter">https://github.com/flutter/flutter</a></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"><img caption="false" height="73" src="./../images/flutter.png" width="500"/></nav></header>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
+<h4><img caption="false" height="80" src="https://www.fossil-scm.org/index.html/doc/trunk/www/fossil3.gif" width="80"/>Fossil</h4>
+<p><a href="https://www.fossil-scm.org/index.html/doc/trunk/www/build.wiki">https://www.fossil-scm.org/index.html/doc/trunk/www/build.wiki</a></p>
+<p><img alt="" height="91" src="./../images/fossil.png" width="600"/></p>
+<p>.</p>
+<p>..</p>
+<p>...</p>
+<p>=================================================================</p>
+<p></p>
+<p></p>
+<p></p>
 <p></p>
 <p></p>
 <p></p>
