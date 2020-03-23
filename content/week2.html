@@ -154,23 +154,25 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">python 3.8.2 << <a href='python 3.8.2.html'>Previous</a> <a href='WEEK.html'>Next</a> >> WEEK<br /><h1>basic Win10 portable programming</h1>
-<p>在你的可攜下創建一個data子目錄  :  </p>
+    <div id="tipue_search_content">week1 << <a href='week1.html'>Previous</a> <a href='week3.html'>Next</a> >> week3<br /><h1>week2</h1>
+<p><span style="color: #808080;">week2進度</span></p>
+<h5><span style="color: #808080;">basic Win10 portable programming</span></h5>
+<p><span style="color: #808080;">在你的可攜下創建一個data子目錄  :  </span></p>
 <p></p>
 <p><a href="https://git-scm.com/"><img alt="Git" height="46" src="https://git-scm.com/images/logo@2x.png" width="110"/></a><span></span><span id="tagline">--everything-is-local   </span></p>
-<p><span id="tagline"><a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a>         </span></p>
-<p><span id="tagline">要用git指令要有portablegit 。data下子目錄存取為portablegit(需與啟動檔配合)。</span></p>
-<p><span></span>start.bat (參考) :</p>
+<p><span id="tagline" style="color: #808080;"><a href="https://git-scm.com/download/win" style="color: #808080;">https://git-scm.com/download/win</a>         </span></p>
+<p><span id="tagline" style="color: #808080;">要用git指令要有portablegit 。data下子目錄存取為portablegit(需與啟動檔配合)。</span></p>
+<p><span style="color: #808080;">start.bat (參考) :</span></p>
 <p><img alt="" height="177" src="./../images/portablegit.png" width="600"/></p>
-<p>.</p>
-<p>..</p>
-<p>...</p>
-<p><span></span>=================================================================</p>
+<p><span style="color: #808080;">.</span></p>
+<p><span style="color: #808080;">..</span></p>
+<p><span style="color: #808080;">...</span></p>
+<p><span style="color: #808080;">=================================================================</span></p>
 <p><a href="https://www.python.org/"><img alt="python™" class="python-logo" height="82" src="https://www.python.org/static/img/python-logo@2x.png" width="290"/></a></p>
-<p><a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
-<p>選取需要的版本(EX : 3.8.2) </p>
-<p>點取執行檔<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe">Windows x86-64 executable installer</a></p>
-<p><span>data下子目錄</span>存取的名稱要跟執行檔相配合(EX : py38)</p>
+<p><span style="color: #808080;"><a href="https://www.python.org/downloads/" style="color: #808080;">https://www.python.org/downloads/</a></span></p>
+<p><span style="color: #808080;">選取需要的版本(EX : 3.8.2) </span></p>
+<p><span style="color: #808080;">點取執行檔<a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe" style="color: #808080;">Windows x86-64 executable installer</a></span></p>
+<p><span style="color: #808080;">data下子目錄存取的名稱要跟執行檔相配合(EX : py38)</span></p>
 <p><img alt="" height="502" src="./../images/sitep382.png" width="600"/></p>
 <p>.</p>
 <p>..</p>
@@ -185,13 +187,13 @@ img.add_border {
 </tr>
 </tbody>
 </table>
-<p>編輯器(用來創建start.bat , stop.bat)<span><a href="https://www.scintilla.org/SciTEDownload.html"><br/>https://www.scintilla.org/SciTEDownload.html</a></span></p>
-<p><span>解開檔案為wscite</span></p>
-<p><span>通過打開SciTE.exe  \ Option \ Open Global Options File</span></p>
-<p><span>找到code.page的部分 , 把code.page=0給註記掉 , 並把code.page=65001取消註記</span></p>
+<p><span style="color: #808080;">編輯器(用來創建start.bat , stop.bat)</span><span><a href="https://www.scintilla.org/SciTEDownload.html"><br/>https://www.scintilla.org/SciTEDownload.html</a></span></p>
+<p><span style="color: #808080;">解開檔案為wscite</span></p>
+<p><span style="color: #808080;">通過打開SciTE.exe  \ Option \ Open Global Options File</span></p>
+<p><span style="color: #808080;">找到code.page的部分 , 把code.page=0給註記掉 , 並把code.page=65001取消註記</span></p>
 <p><span><img alt="" height="785" src="./../images/code65001-1.png" width="600"/></span></p>
 <p><img alt="" height="789" src="./../images/codepage65001-2.png" width="600"/></p>
-<p><span></span>start.bat  :</p>
+<p><span></span><span style="color: #808080;">start.bat  :</span></p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
 set Disk=y
 subst %Disk%: "data"
@@ -236,7 +238,7 @@ start /MIN %Disk%:\wscite\SciTE.exe
 
 Exit</pre>
 <p><br/><br/></p>
-<p>stop.bat</p>
+<p><span style="color: #808080;">stop.bat</span></p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">@echo off
 set Disk=y
 path=%PATH%;
@@ -251,27 +253,27 @@ subst %Disk%: /D
 REM 關閉 cmd 指令視窗
 taskkill /IM cmd.exe /F
 EXIT</pre>
-<p>-</p>
-<p>假使要快速比較修改前後 :，可使用一個工具 : </p>
+<p><span style="color: #808080;">-</span></p>
+<p><span style="color: #808080;">假使要快速比較修改前後 :，可使用一個工具 : </span></p>
 <p><br/><img height="32" src="http://kdiff3.sourceforge.net/lo32-app-kdiff3.png" width="32"/><span> </span>KDiff3 - Home</p>
 <p><a href="http://kdiff3.sourceforge.net/">http://kdiff3.sourceforge.net/</a></p>
 <p><img alt="" height="101" src="./../images/hxd011.png" width="600"/></p>
 <p></p>
-<p>可即時看到檔案間的差別</p>
-<p>也可以用來比較<strong>Tiny C Compiler  </strong></p>
-<p><a href="https://directory.fsf.org/wiki/Tiny_C_Compiler">https://directory.fsf.org/wiki/Tiny_C_Compiler</a>  <span>檔案編輯前後的差異</span></p>
+<p><span style="color: #808080;">可即時看到檔案間的差別</span></p>
+<p><span style="color: #808080;">也可以用來比較</span><strong>Tiny C Compiler  </strong></p>
+<p><a href="https://directory.fsf.org/wiki/Tiny_C_Compiler">https://directory.fsf.org/wiki/Tiny_C_Compiler</a> <span style="color: #808080;"> 檔案編輯前後的差異</span></p>
 <p><span><img alt="" height="205" src="./../images/未命名1.png" width="264"/></span></p>
 <p><span><img alt="" height="258" src="./../images/tcc.png" width="280"/></span></p>
 <p><span><a href="https://bellard.org/tcc/">https://bellard.org/tcc/</a></span></p>
-<p>.</p>
-<p>..</p>
-<p>...</p>
-<p>================================================================</p>
+<p><span style="color: #808080;">.</span></p>
+<p><span style="color: #808080;">..</span></p>
+<p><span style="color: #808080;">...</span></p>
+<p><span style="color: #808080;">================================================================</span></p>
 <h5>pip</h5>
-<p><a href="https://bootstrap.pypa.io/get-pip.py">get-pip.py</a>頁面存取成data下的get-pip.py</p>
-<p>再繼續用 :</p>
+<p><a href="https://bootstrap.pypa.io/get-pip.py">get-pip.py</a><span style="color: #808080;">頁面存取成data下的get-pip.py</span></p>
+<p><span style="color: #808080;">再繼續用 :</span></p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">python -m pip install flask lxml bs4 flask-cors Markdown pelican leo </pre>
-<p>下載網際系統相關套件</p>
+<p><span style="color: #808080;">下載網際系統相關套件</span></p>
 <p></p>
 <p>==============================================================</p>
 <div class="maincontent">
@@ -281,8 +283,8 @@ EXIT</pre>
 </div>
 </div>
 <p><a href="https://mh-nexus.de/en/hxd/">https://mh-nexus.de/en/hxd/</a>     </p>
-<p>選取該version區目前適合的版本</p>
-<p><span>利用 HxD 修改 pip.exe 中python.exe 的所在位置(pip.exe是存取在p38的Scripts裡) , HxD 開啟之後搜尋c:\py38\python.exe , 然後將滑鼠停在 c 然後輸入y:\p37\python.exe, 以便讓可攜系統啟動後, 可以將指令搜尋路徑設到 y:\p38\Scripts , 這樣就可以直接以 </span><span>"pip install " 指令安裝套件.</span></p>
+<p><span style="color: #808080;">選取該version區目前適合的版本</span></p>
+<p><span style="color: #808080;">利用 HxD 修改 pip.exe 中python.exe 的所在位置(pip.exe是存取在p38的Scripts裡) , HxD 開啟之後搜尋c:\py38\python.exe , 然後將滑鼠停在 c 然後輸入y:\p37\python.exe, 以便讓可攜系統啟動後, 可以將指令搜尋路徑設到 y:\p38\Scripts , 這樣就可以直接以 "pip install " 指令安裝套件.</span></p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">pip install Flask Markdown lxml bs4 flask_cors pelican leo </pre>
 <p></p>
 <p>.</p>
@@ -292,7 +294,7 @@ EXIT</pre>
 <h4>MSYS2 installer</h4>
 <p>MSYS2 : <a href="https://www.msys2.org/">https://www.msys2.org/</a></p>
 <p><img alt="" height="157" src="./../images/MSYS2.png" width="600"/></p>
-<p>接著設定start.bat</p>
+<p><span style="color: #808080;">接著設定start.bat</span></p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">REM 設定 msys2 64 位元的執行路徑
 set path_msys2=%Disk%:\msys64\mingw64\bin;
 
@@ -305,33 +307,32 @@ path=%Disk%:;%path_python%;%path_git%;%path_msys2%;</pre>
 <h4>ShareX</h4>
 <p>ShareX : <a href="https://getsharex.com/">https://getsharex.com/</a></p>
 <p><img alt="" height="170" src="./../images/shareX.png" width="600"/></p>
-<p>.</p>
-<p>..</p>
-<p>...</p>
-<p>=================================================================</p>
-<h4>Tmp (Y\tmp : git clone .....)</h4>
+<p><span style="color: #808080;">.</span></p>
+<p><span style="color: #808080;">..</span></p>
+<p><span style="color: #808080;">...</span></p>
+<p><span style="color: #808080;">=================================================================</span></p>
+<h4>Tmp <span style="color: #808080;">(Y\tmp : git clone .....)</span></h4>
 <p><img alt="" height="172" src="./../images/tmp.png" width="600"/></p>
-<p>.</p>
-<p>..</p>
-<p>...</p>
-<p>=================================================================</p>
+<p><span style="color: #808080;">.</span></p>
+<p><span style="color: #808080;">..</span></p>
+<p><span style="color: #808080;">...</span></p>
+<p><span style="color: #808080;">=================================================================</span></p>
 <header class="site-header"><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"><img alt="Flutter logo" caption="false" height="117" src="https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup.png" width="400"/></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"><a href="https://github.com/flutter/flutter">https://github.com/flutter/flutter</a></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"></nav><nav class="navbar navbar-expand-md justify-content-start justify-content-md-between"><img caption="false" height="73" src="./../images/flutter.png" width="500"/></nav></header>
-<p>.</p>
-<p>..</p>
-<p>...</p>
-<p>=================================================================</p>
+<p><span style="color: #808080;">.</span></p>
+<p><span style="color: #808080;">..</span></p>
+<p><span style="color: #808080;">...</span></p>
+<p><span style="color: #808080;">=================================================================</span></p>
 <h4><img caption="false" height="80" src="https://www.fossil-scm.org/index.html/doc/trunk/www/fossil3.gif" width="80"/>Fossil</h4>
 <p></p>
 <p><a href="https://www.fossil-scm.org/index.html/doc/trunk/www/build.wiki">https://www.fossil-scm.org/index.html/doc/trunk/www/build.wiki</a></p>
 <p></p>
 <p><img alt="" height="91" src="./../images/fossil.png" width="600"/></p>
-<p>.</p>
-<p>..</p>
-<p>...</p>
-<p>=================================================================</p>
+<p><span style="color: #808080;">.</span></p>
+<p><span style="color: #808080;">..</span></p>
+<p><span style="color: #808080;">...</span></p>
+<p><span style="color: #808080;">=================================================================</span></p>
 <p>putty <a href="https://github.com/s40723110/cd2020/raw/master/downloads/putty.zip">putty</a></p>
-<p><img alt="" height="332" src="./../images/putty.png" width="193"/></p>
-<br />python 3.8.2 << <a href='python 3.8.2.html'>Previous</a> <a href='WEEK.html'>Next</a> >> WEEK</div>
+<p><img alt="" height="332" src="./../images/putty.png" width="193"/></p><br />week1 << <a href='week1.html'>Previous</a> <a href='week3.html'>Next</a> >> week3</div>
         
     <!-- footer -->
       <div class="container">
