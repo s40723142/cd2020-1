@@ -540,9 +540,13 @@ path=%Disk%:;%path_python%;%path_git%;%path_msys2%;</pre>
 <p>Virtualbox網路設定 : </p>
 <p>首先要學會抓到DHCP中的IP</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">ifconfig</pre>
+<p>如果出現</p>
+<p><img alt="" height="168" src="/images/註解 2020-05-25 223229.png" width="500"/></p>
+<p>沒有安裝工具，執行指令 : </p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt install net-tools</pre>
 <p>這樣即可看到他內部設定的IP</p>
 <p><img alt="" height="345" src="/images/Inked註解 2020-05-25 191437_LI.jpg" width="500"/></p>
-<p>要瞭解到他是怎麼設定的</p>
+<p>要瞭解到網路是怎麼設定的</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/netplan</pre>
 <p>和</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">ls -l</pre>
@@ -550,7 +554,7 @@ path=%Disk%:;%path_python%;%path_git%;%path_msys2%;</pre>
 <p><img alt="" height="154" src="/images/註解 2020-05-25 193729.png" width="500"/></p>
 <p>確認dhcp4、6都可以 ( 也確認中華電信的DNS : 2001:b000:168::1)</p>
 <p><img alt="" height="373" src="/images/註解 2020-05-25 193610.png" width="500"/></p>
-<p>把剛剛內部看到的IP在Virtualbox上設定</p>
+<p>內部看到的IP也要在Virtualbox上定位</p>
 <p>file / Preferences / Network</p>
 <p>ipv4部分 :</p>
 <p><img alt="" height="359" src="/images/註解 2020-05-25 195328.png" width="500"/></p>
@@ -559,10 +563,11 @@ path=%Disk%:;%path_python%;%path_git%;%path_msys2%;</pre>
 <p><img alt="" height="360" src="/images/註解 2020-05-25 205254.png" width="500"/></p>
 <p><img alt="" height="362" src="/images/註解 2020-05-25 211539.png" width="500"/></p>
 <p></p>
-<p>利用 putty 連線虛擬主機</p>
+<p>利用 putty 連線虛擬主機 : </p>
 <p><img alt="" height="486" src="/images/註解 2020-05-25 222244.png" width="500"/></p>
 <p><img alt="" height="451" src="/images/註解 2020-05-25 222306.png" width="500"/></p>
 <p><img alt="" height="452" src="/images/註解 2020-05-25 222327.png" width="500"/></p>
+<p>成功</p>
 <p><img alt="" height="314" src="/images/註解 2020-05-25 222553.png" width="500"/></p>
 <p></p>
 <p></p>
