@@ -162,13 +162,14 @@ img.add_border {
 <p><img alt="" height="168" src="./../images/註解 2020-05-25 223229.png" width="500"/></p>
 <p>沒有安裝工具，執行指令 : </p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt install net-tools</pre>
-<p>再輸入一次 ifconfig</p>
-<p>這樣即可看到他內部設定的IP</p>
-<p><img alt="" height="345" src="./../images/Inked註解 2020-05-25 191437_LI.jpg" width="500"/></p>
-<p>如果不行的話記得到 : </p>
-<p><img alt="" height="397" src="./../images/20200531-2.jpg" width="500"/></p>
-<p><img alt="" height="291" src="./../images/20200531.png" width="500"/></p>
-<p>...</p>
+<p>如果沒辦法安裝套件( 沒有網路) :</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/apt/conf.d</pre>
+<p>在該處執行 : </p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo vi proxy.conf</pre>
+<p>給它內容 : </p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">Acquire::http::proxy "http://[2001:288:6004:17:此處填寫當下的port號]";</pre>
+<p>更新當前修改內容</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt update</pre>
 <p>要瞭解到網路是怎麼設定的</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/netplan</pre>
 <p>和</p>
@@ -178,6 +179,15 @@ img.add_border {
 <p><img alt="" height="154" src="./../images/註解 2020-05-25 193729.png" width="500"/></p>
 <p>確認dhcp4、6都可以 ( 也確認中華電信的DNS : 2001:b000:168::1)</p>
 <p><img alt="" height="373" src="./../images/註解 2020-05-25 193610.png" width="500"/></p>
+<p>再輸入一次 ifconfig (或可執行net tools)</p>
+<p>這樣即可看到他內部設定的IP</p>
+<p><img alt="" height="345" src="./../images/Inked註解 2020-05-25 191437_LI.jpg" width="500"/></p>
+<p>如果不行的話記得到 : </p>
+<p><img alt="" height="397" src="./../images/20200531-2.jpg" width="500"/></p>
+<p><img alt="" height="291" src="./../images/20200531.png" width="500"/></p>
+<p></p>
+<p>...</p>
+<p></p>
 <p>內部看到的 IP 也要在 Virtualbox 上定位</p>
 <p>file / Preferences / Network</p>
 <p>ipv4部分 :</p>
@@ -196,7 +206,9 @@ img.add_border {
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">localhost:0.0</pre>
 <p>下圖為成功 (login as : kmol2020)</p>
 <p><img alt="" height="314" src="./../images/註解 2020-05-25 222553.png" width="500"/></p>
-<p></p>
+<p>下載 Xming :</p>
+<p><a href="https://sourceforge.net/projects/xming/">https://sourceforge.net/projects/xming/</a></p>
+<p>https://github.com/s40723110/cd2020/tree/master/Xming</p>
 <p>後續 : </p>
 <p><img alt="" src="https://youtu.be/hlUO5b8ZKdc" width="500"/><img alt="" src="https://youtu.be/hlUO5b8ZKdc"/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/hlUO5b8ZKdc" width="560"></iframe><br/><span></span></p>
 <p></p><br />WEEK 12-18 << <a href='WEEK 12-18.html'>Previous</a> <a href='week 13.html'>Next</a> >> week 13</div>
