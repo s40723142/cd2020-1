@@ -545,17 +545,23 @@ path=%Disk%:;%path_python%;%path_git%;%path_msys2%;</pre>
 <p><img alt="" height="168" src="/images/註解 2020-05-25 223229.png" width="500"/></p>
 <p>沒有安裝工具，執行指令 : </p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt install net-tools</pre>
+<p>再輸入一次 ifconfig</p>
 <p>這樣即可看到他內部設定的IP</p>
 <p><img alt="" height="345" src="/images/Inked註解 2020-05-25 191437_LI.jpg" width="500"/></p>
+<p>如果不行的話記得到 : </p>
+<p><img alt="" height="397" src="/images/20200531-2.jpg" width="500"/></p>
+<p><img alt="" height="291" src="/images/20200531.png" width="500"/></p>
+<p>...</p>
 <p>要瞭解到網路是怎麼設定的</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/netplan</pre>
 <p>和</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">ls -l</pre>
 <p>因為那個yaml檔不是在工作目錄，所以用<a href="https://zh.wikipedia.org/wiki/Sudo">sudo</a>執行</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo vi 00-installer-config.yaml</pre>
 <p><img alt="" height="154" src="/images/註解 2020-05-25 193729.png" width="500"/></p>
 <p>確認dhcp4、6都可以 ( 也確認中華電信的DNS : 2001:b000:168::1)</p>
 <p><img alt="" height="373" src="/images/註解 2020-05-25 193610.png" width="500"/></p>
-<p>內部看到的IP也要在Virtualbox上定位</p>
+<p>內部看到的 IP 也要在 Virtualbox 上定位</p>
 <p>file / Preferences / Network</p>
 <p>ipv4部分 :</p>
 <p><img alt="" height="359" src="/images/註解 2020-05-25 195328.png" width="500"/></p>
@@ -567,13 +573,18 @@ path=%Disk%:;%path_python%;%path_git%;%path_msys2%;</pre>
 <p>利用 putty 連線虛擬主機 : </p>
 <p><img alt="" height="486" src="/images/註解 2020-05-25 222244.png" width="500"/></p>
 <p><img alt="" height="451" src="/images/註解 2020-05-25 222306.png" width="500"/></p>
-<p><img alt="" height="452" src="/images/註解 2020-05-25 222327.png" width="500"/></p>
-<p>成功</p>
+<p>這裡所用的是上面 IP 設定的 port 號</p>
+<p><img alt="" height="454" src="/images/註解 2020-05-31 220533.png" width="500"/></p>
+<p>上圖的 X display location 是 : </p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">localhost:0.0</pre>
+<p>下圖為成功 (login as : kmol2020)</p>
 <p><img alt="" height="314" src="/images/註解 2020-05-25 222553.png" width="500"/></p>
 <p></p>
-<p></p>
-<p></p>
-<p><span></span></p><h1>Topic 0</h1>
+<p>後續 : </p>
+<p><img alt="" src="https://youtu.be/hlUO5b8ZKdc" width="500"/><img alt="" src="https://youtu.be/hlUO5b8ZKdc"/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/hlUO5b8ZKdc" width="560"></iframe><br/><span></span></p>
+<p></p><h2>week 13</h2>
+<p>上課驗收第12周進度 : </p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/hlUO5b8ZKdc" width="560"></iframe></p><h1>Topic 0</h1>
 <h2>DigitalProductCollaboration</h2>
 <h4>DigitalProductCollaboration</h4>
 <p><a href="https://drive.google.com/open?id=1YHQwYduSMisiJQS-Jr_HhJghzIqP_SBc">https://drive.google.com/open?id=1YHQwYduSMisiJQS-Jr_HhJghzIqP_SBc</a></p>
