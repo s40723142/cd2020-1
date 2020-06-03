@@ -546,7 +546,9 @@ path=%Disk%:;%path_python%;%path_git%;%path_msys2%;</pre>
 <p>沒有安裝工具，執行指令 : </p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt install net-tools</pre>
 <p>如果沒辦法安裝套件( 沒有網路) :</p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/apt/conf.d</pre>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd etc
+cd apt
+cd apt.conf.d</pre>
 <p>在該處執行 : </p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo vi proxy.conf</pre>
 <p>給它內容 : </p>
@@ -561,8 +563,8 @@ path=%Disk%:;%path_python%;%path_git%;%path_msys2%;</pre>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo vi 00-installer-config.yaml</pre>
 <p><img alt="" height="154" src="/images/註解 2020-05-25 193729.png" width="500"/></p>
 <p>確認dhcp4、6都可以 ( 也確認中華電信的DNS : 2001:b000:168::1)</p>
-<p><img alt="" height="373" src="/images/註解 2020-05-25 193610.png" width="500"/></p>
-<p>再輸入一次 ifconfig (或可執行net tools)</p>
+<p><img alt="" height="558" src="/images/2001168.png" width="800"/></p>
+<p>再輸入一次 ifconfig ( 或再安裝一次 net tools ) </p>
 <p>這樣即可看到他內部設定的IP</p>
 <p><img alt="" height="345" src="/images/Inked註解 2020-05-25 191437_LI.jpg" width="500"/></p>
 <p>如果不行的話記得到 : </p>
@@ -610,12 +612,28 @@ path=%Disk%:;%path_python%;%path_git%;%path_msys2%;</pre>
 <p>檢查 Ipv4 或 Ipv6 下的網路環境 host ip 有沒有設錯，以及 ubuntu 開啟的該主機的setting 中 :</p>
 <p><img alt="" height="372" src="/images/Inked註解 2020-05-31 222518_LI.jpg" width="500"/> </p>
 <h2>week 14</h2>
-<p></p>
+<p>任務 : 開啟主機 ( 自己學號的網域 ) 並讓外部可連結</p>
+<h4><span style="background-color: #000000; color: #00ffff;">IPV6環境</span> :</h4>
+<h4><strong>1. 電腦上設定 : </strong></h4>
+<p>首先要防止連線主機時防火牆把它阻擋掉，所以要把防火牆關掉 。</p>
 <p><img caption="false" height="600" src="/images/unfireWall off.png" width="800"/></p>
+<p>網路設定中因為不想讓 IPV4 的連線影響該環境的 IPV6 的關係，所以把網路設定中IPV4 取消勾選。</p>
 <p><img alt="" height="449" src="/images/ipv4 off.png" width="800"/></p>
+<p></p>
+<p>IPV6 中也要設定「自己的位置」 。</p>
 <p><img alt="" height="657" src="/images/ipv6 content.png" width="800"/></p>
+<p></p>
+<p>因為要連線到19443 ( 老師指定的網域 ) ，但它    所以要關掉 proxy。</p>
+<p></p>
 <p><img alt="" height="664" src="/images/proxyOff.png" width="500"/></p>
-<p>成功 : </p>
+<p>「但，如果主機要連上 github.com ，就還是要開啟 proxy ，因為裡面包含了其 IPV4的設定。」</p>
+<h4><strong>2. 主機設定 : </strong></h4>
+<p>VirtaulBox 上 :</p>
+<p><img alt="" height="326" src="/images/註解 2020-06-03 162052.png" width="800"/></p>
+<p>( 上圖 ) Host IP 是老師給的學生網域，Guest IP 則是 </p>
+<p>再來是開啟時的 wsgi.py 的設定 : </p>
+<p><img caption="false" height="555" src="/images/wsgi.py.png" width="800"/></p>
+<p>在外部輸入自己的網域，成功連線 : </p>
 <p><img alt="" height="546" src="/images/Annotation 2020-06-03 120227.png" width="900"/></p>
 <p>個人網域設定 :</p>
 <p><a href="https://github.com/mdecourse/cd2020/blob/master/downloads/w13_ipv6_assignment.txt">https://github.com/mdecourse/cd2020/blob/master/downloads/w13_ipv6_assignment.txt</a></p>

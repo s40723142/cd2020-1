@@ -163,7 +163,9 @@ img.add_border {
 <p>沒有安裝工具，執行指令 : </p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt install net-tools</pre>
 <p>如果沒辦法安裝套件( 沒有網路) :</p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/apt/conf.d</pre>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd etc
+cd apt
+cd apt.conf.d</pre>
 <p>在該處執行 : </p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo vi proxy.conf</pre>
 <p>給它內容 : </p>
@@ -178,8 +180,8 @@ img.add_border {
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo vi 00-installer-config.yaml</pre>
 <p><img alt="" height="154" src="./../images/註解 2020-05-25 193729.png" width="500"/></p>
 <p>確認dhcp4、6都可以 ( 也確認中華電信的DNS : 2001:b000:168::1)</p>
-<p><img alt="" height="373" src="./../images/註解 2020-05-25 193610.png" width="500"/></p>
-<p>再輸入一次 ifconfig (或可執行net tools)</p>
+<p><img alt="" height="558" src="./../images/2001168.png" width="800"/></p>
+<p>再輸入一次 ifconfig ( 或再安裝一次 net tools ) </p>
 <p>這樣即可看到他內部設定的IP</p>
 <p><img alt="" height="345" src="./../images/Inked註解 2020-05-25 191437_LI.jpg" width="500"/></p>
 <p>如果不行的話記得到 : </p>

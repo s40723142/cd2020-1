@@ -155,13 +155,28 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">week 13 << <a href='week 13.html'>Previous</a> <a href='Topic 0.html'>Next</a> >> Topic 0<br /><h1>week 14</h1>
-<p></p>
+<p>任務 : 開啟主機 ( 自己學號的網域 ) 並讓外部可連結</p>
+<h4><span style="background-color: #000000; color: #00ffff;">IPV6環境</span> :</h4>
+<h4><strong>1. 電腦上設定 : </strong></h4>
+<p>首先要防止連線主機時防火牆把它阻擋掉，所以要把防火牆關掉 。</p>
 <p><img caption="false" height="600" src="./../images/unfireWall off.png" width="800"/></p>
+<p>網路設定中因為不想讓 IPV4 的連線影響該環境的 IPV6 的關係，所以把網路設定中IPV4 取消勾選。</p>
 <p><img alt="" height="449" src="./../images/ipv4 off.png" width="800"/></p>
+<p></p>
+<p>IPV6 中也要設定「自己的位置」 。</p>
 <p><img alt="" height="657" src="./../images/ipv6 content.png" width="800"/></p>
+<p></p>
+<p>因為要連線到19443 ( 老師指定的網域 ) ，但它    所以要關掉 proxy。</p>
+<p></p>
 <p><img alt="" height="664" src="./../images/proxyOff.png" width="500"/></p>
+<p>「但，如果主機要連上 github.com ，就還是要開啟 proxy ，因為裡面包含了其 IPV4的設定。」</p>
+<h4><strong>2. 主機設定 : </strong></h4>
+<p>VirtaulBox 上 :</p>
+<p><img alt="" height="326" src="./../images/註解 2020-06-03 162052.png" width="800"/></p>
+<p>( 上圖 ) Host IP 是老師給的學生網域，Guest IP 則是 </p>
+<p>再來是開啟時的 wsgi.py 的設定 : </p>
 <p><img caption="false" height="555" src="./../images/wsgi.py.png" width="800"/></p>
-<p>成功 : </p>
+<p>在外部輸入自己的網域，成功連線 : </p>
 <p><img alt="" height="546" src="./../images/Annotation 2020-06-03 120227.png" width="900"/></p>
 <p>個人網域設定 :</p>
 <p><a href="https://github.com/mdecourse/cd2020/blob/master/downloads/w13_ipv6_assignment.txt">https://github.com/mdecourse/cd2020/blob/master/downloads/w13_ipv6_assignment.txt</a></p>
