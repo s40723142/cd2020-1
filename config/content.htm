@@ -552,7 +552,7 @@ cd apt.conf.d</pre>
 <p>在該處執行 : </p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo vi proxy.conf</pre>
 <p>給它內容 : </p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">Acquire::http::proxy "http://[2001:288:6004:17:此處填寫當下的port號]";</pre>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">Acquire::http::proxy "http://[2001:288:6004:17::此處填寫當下的port號]:3128";</pre>
 <p>更新當前修改內容</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt update</pre>
 <p>要瞭解到網路是怎麼設定的</p>
