@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,28 +10,37 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20200617092046.1"><vh>Page1</vh>
+<v t="leo.20200617092046.2"><vh>Week 1 ~ Week11統整</vh></v>
+</v>
+<v t="leo.20200617094259.1"><vh>Page2</vh>
+<v t="leo.20200617094259.2"><vh>Week 1 ~ Week11統整</vh></v>
+</v>
+<v t="leo.20200617095924.1"><vh>Page3</vh>
+<v t="leo.20200617095924.2"><vh>Week 1 ~ Week11統整</vh></v>
+</v>
+<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -48,15 +54,18 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
+<t tx="leo.20180902120523.10">## CMSimfly 協同產品設計
 
-### KMOLab
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+[40723110](https://github.com/s40723110/cd2020)
 &lt;/small&gt;
+&lt;hr&gt;
+[github](https://github.com/s40723110/cd2020)
 
-[CMSimfly 網誌](./../blog/index.html)
+[myVideos](https://www.youtube.com/channel/UCKNMzrN3LWoJ-hkns9DGrKA/videos?view_as=subscriber)
+&lt;hr&gt;
+
 
 
 </t>
@@ -326,5 +335,74 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200617092046.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617092046.2">##  Week 1 ~ Week11統整
+
+* Python升級至 3.8.2
+* Youtube streamming live + OBS
+* google calender 配合 meeting
+* Google API
+</t>
+<t tx="leo.20200617094259.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617094259.2">##  Week 1 ~ Week11筆記
+
+&lt;small&gt;
+* 協同產品設計趨於「非同步」，非同步協同加速創新流程 (w3)
+* 人很容易犯錯，但電腦是精確的 (w3)
+* 電腦雖然精確，但不能用電「腦」解決任何事情，但凡遇到衝突時，還是需要人的「判斷」(w3)
+* 機械產品設計之流程趨於在家即可工作，且如果還能有把多方設計者進行創新設計時所產生的衝突做到同時兼顧且不失資料的環境的話，那麼就可以實現彼此不受到干擾、方便且快速之創新 (w3)
+* 除了本身的基礎程式能力，還需要有在設計流程裡可以把自己想法呈現，並讓大眾所能理解的能力 (w4)
+* takle : 奮不顧身地解決某一件事 (w11)
+* 把自己當作一個產品，進行成長上的策略 , 使用對的工具 , 注重成長的流程 , 建立良好的學習心態 (w11)
+* 只有好學生，沒有好學校 (w11)
+* 有專長能就業 (w11)
+
+&lt;/small&gt;</t>
+<t tx="leo.20200617095924.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617095924.2">##  Python升級至 3.8.2
+
+[process](https://s40723110.github.io/cd2020/content/basic%20Win10%20portable%20programming.html)
+
+&lt;small&gt;
+* 協同產品設計趨於「非同步」，非同步協同加速創新流程 (w3)
+* 人很容易犯錯，但電腦是精確的 (w3)
+* 電腦雖然精確，但不能用電「腦」解決任何事情，但凡遇到衝突時，還是需要人的「判斷」(w3)
+* 機械產品設計之流程趨於在家即可工作，且如果還能有把多方設計者進行創新設計時所產生的衝突做到同時兼顧且不失資料的環境的話，那麼就可以實現彼此不受到干擾、方便且快速之創新 (w3)
+* 除了本身的基礎程式能力，還需要有在設計流程裡可以把自己想法呈現，並讓大眾所能理解的能力 (w4)
+* takle : 奮不顧身地解決某一件事 (w11)
+* 把自己當作一個產品，進行成長上的策略 , 使用對的工具 , 注重成長的流程 , 建立良好的學習心態 (w11)
+* 只有好學生，沒有好學校 (w11)
+* 有專長能就業 (w11)
+
+&lt;/small&gt;
+
+
+
+
+</t>
 </tnodes>
 </leo_file>
