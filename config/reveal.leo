@@ -28,7 +28,13 @@
 <v t="leo.20200617094259.2"><vh>Week 1 ~ Week11統整</vh></v>
 </v>
 <v t="leo.20200617095924.1"><vh>Page3</vh>
-<v t="leo.20200617095924.2"><vh>Week 1 ~ Week11統整</vh></v>
+<v t="leo.20200617095924.2"><vh>py382</vh></v>
+</v>
+<v t="leo.20200617105752.1"><vh>Page4</vh>
+<v t="leo.20200617105752.2"><vh>Youtube streamming live + OBS</vh></v>
+</v>
+<v t="leo.20200617110334.1"><vh>Page5</vh>
+<v t="leo.20200617110334.2"><vh>google calender 配合 meeting</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -385,24 +391,66 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200617095924.2">##  Python升級至 3.8.2
 
-[process](https://s40723110.github.io/cd2020/content/basic%20Win10%20portable%20programming.html)
 
-&lt;small&gt;
-* 協同產品設計趨於「非同步」，非同步協同加速創新流程 (w3)
-* 人很容易犯錯，但電腦是精確的 (w3)
-* 電腦雖然精確，但不能用電「腦」解決任何事情，但凡遇到衝突時，還是需要人的「判斷」(w3)
-* 機械產品設計之流程趨於在家即可工作，且如果還能有把多方設計者進行創新設計時所產生的衝突做到同時兼顧且不失資料的環境的話，那麼就可以實現彼此不受到干擾、方便且快速之創新 (w3)
-* 除了本身的基礎程式能力，還需要有在設計流程裡可以把自己想法呈現，並讓大眾所能理解的能力 (w4)
-* takle : 奮不顧身地解決某一件事 (w11)
-* 把自己當作一個產品，進行成長上的策略 , 使用對的工具 , 注重成長的流程 , 建立良好的學習心態 (w11)
-* 只有好學生，沒有好學校 (w11)
-* 有專長能就業 (w11)
+* [process](https://s40723110.github.io/cd2020/content/basic%20Win10%20portable%20programming.html)
 
-&lt;/small&gt;
 
+* [&lt;span style="color:orange;"&gt;Git&lt;/span&gt;](https://git-scm.com/download/win)
+* [&lt;span style="color:orange;"&gt;python&lt;/span&gt;](https://www.python.org/downloads/)
+* [&lt;span style="color:orange;"&gt;scite 編輯器&lt;/span&gt;](https://www.scintilla.org/SciTEDownload.html)
+* [&lt;span style="color:orange;"&gt;Kdiff3&lt;/span&gt;](http://kdiff3.sourceforge.net/)
+* [&lt;span style="color:orange;"&gt;Hxd&lt;/span&gt;](https://mh-nexus.de/en/hxd/)
+* [&lt;span style="color:orange;"&gt;putty&lt;/span&gt;](https://www.putty.org/)
+* [&lt;span style="color:orange;"&gt;Fossi&lt;/span&gt;](https://www.fossil-scm.org/index.html/doc/trunk/www/build.wiki)
+* &lt;span style="color:yellow;"&gt;另外創建一個 Tmp 的資料夾，用來放倉儲&lt;/span&gt;
+* &lt;span style="color:yellow;"&gt;以及把[get -pip.py](https://bootstrap.pypa.io/get-pip.py) 存在 data下&lt;/span&gt;
 
 
 
+
+
+
+</t>
+<t tx="leo.20200617105752.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617105752.2">##  Youtube streamming live + OBS
+
+
+[video](https://www.youtube.com/watch?v=2vkrnhgBROI)
+
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/2vkrnhgBROI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200617110334.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617110334.2">##  google calender 配合 meeting
+
+
+[&lt;span style="color:orange;"&gt;利用Google calerder&lt;/span&gt; ](https://www.youtube.com/watch?v=g3I0onpy3AU)
+
+
+&lt;iframe width="250" height="108" src="https://www.youtube.com/embed/g3I0onpy3AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+[&lt;span style="color:orange;"&gt;Google meeting進行線上討論&lt;/span&gt; ](https://www.youtube.com/watch?v=Qwg4yCzS4e0)
+
+
+&lt;iframe width="250" height="108" src="https://www.youtube.com/embed/Qwg4yCzS4e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
