@@ -21,20 +21,50 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20200617092046.1"><vh>Page1</vh>
+<v t="leo.20200623204514.1"><vh>個人網頁</vh>
+<v t="leo.20200623204514.2"><vh>個人網頁</vh></v>
+</v>
+<v t="leo.20200617092046.1"><vh>Week 1 ~ Week11統整</vh>
 <v t="leo.20200617092046.2"><vh>Week 1 ~ Week11統整</vh></v>
 </v>
-<v t="leo.20200617094259.1"><vh>Page2</vh>
+<v t="leo.20200617094259.1"><vh>Week 1 ~ Week11筆記</vh>
 <v t="leo.20200617094259.2"><vh>Week 1 ~ Week11統整</vh></v>
 </v>
-<v t="leo.20200617095924.1"><vh>Page3</vh>
+<v t="leo.20200617095924.1"><vh>py382</vh>
 <v t="leo.20200617095924.2"><vh>py382</vh></v>
 </v>
-<v t="leo.20200617105752.1"><vh>Page4</vh>
+<v t="leo.20200623210144.1"><vh>更新問題py382</vh>
+<v t="leo.20200623210144.2"><vh>更新問題py382</vh></v>
+</v>
+<v t="leo.20200623210338.1"><vh>SSH</vh>
+<v t="leo.20200623210338.2"><vh>SSH</vh></v>
+</v>
+<v t="leo.20200617105752.1"><vh>Youtube streamming live + OBS</vh>
 <v t="leo.20200617105752.2"><vh>Youtube streamming live + OBS</vh></v>
 </v>
-<v t="leo.20200617110334.1"><vh>Page5</vh>
+<v t="leo.20200617110334.1"><vh>google calender 配合 meeting</vh>
 <v t="leo.20200617110334.2"><vh>google calender 配合 meeting</vh></v>
+</v>
+<v t="leo.20200623193935.1"><vh>GM帳號設置</vh>
+<v t="leo.20200623193935.2"><vh>GM帳號設置</vh></v>
+</v>
+<v t="leo.20200623195437.1"><vh>Week12~Week18統整</vh>
+<v t="leo.20200623195437.2"><vh>Week12~Week18統整</vh></v>
+</v>
+<v t="leo.20200623202531.1"><vh>Virtualbox網路設定</vh>
+<v t="leo.20200623202531.2"><vh>Virtualbox網路設定</vh></v>
+</v>
+<v t="leo.20200623204901.1"><vh>近端與虛擬主機連線</vh>
+<v t="leo.20200623204901.2"><vh>近端與虛擬主機連線</vh></v>
+</v>
+<v t="leo.20200623210552.1"><vh>近端操作相關問題</vh>
+<v t="leo.20200623210552.2"><vh>近端操作相關問題</vh></v>
+</v>
+<v t="leo.20200623205039.1"><vh>IPV6連線學生個人網站</vh>
+<v t="leo.20200623205039.2"><vh>IPV6連線學生個人網站</vh></v>
+</v>
+<v t="leo.20200623211125.1"><vh>小組meeting</vh>
+<v t="leo.20200623211125.2"><vh>小組meeting</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -73,7 +103,7 @@
 &lt;hr&gt;
 
 
-
+&lt;marquee direction=left&gt;40723110李正揚&lt;/marquee&gt; &lt;br /&gt; &lt;marquee loop=10000000&gt;&lt;/marquee&gt; &lt;br /&gt;   
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -392,18 +422,18 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200617095924.2">##  Python升級至 3.8.2
 
 
-* [process](https://s40723110.github.io/cd2020/content/basic%20Win10%20portable%20programming.html)
+* [&lt;span style="color:orange;"&gt;流程影片&lt;/span&gt;](https://s40723110.github.io/cd2020/content/basic%20Win10%20portable%20programming.html)
 
 
-* [&lt;span style="color:orange;"&gt;Git&lt;/span&gt;](https://git-scm.com/download/win)
-* [&lt;span style="color:orange;"&gt;python&lt;/span&gt;](https://www.python.org/downloads/)
-* [&lt;span style="color:orange;"&gt;scite 編輯器&lt;/span&gt;](https://www.scintilla.org/SciTEDownload.html)
-* [&lt;span style="color:orange;"&gt;Kdiff3&lt;/span&gt;](http://kdiff3.sourceforge.net/)
-* [&lt;span style="color:orange;"&gt;Hxd&lt;/span&gt;](https://mh-nexus.de/en/hxd/)
-* [&lt;span style="color:orange;"&gt;putty&lt;/span&gt;](https://www.putty.org/)
-* [&lt;span style="color:orange;"&gt;Fossi&lt;/span&gt;](https://www.fossil-scm.org/index.html/doc/trunk/www/build.wiki)
-* &lt;span style="color:yellow;"&gt;另外創建一個 Tmp 的資料夾，用來放倉儲&lt;/span&gt;
-* &lt;span style="color:yellow;"&gt;以及把[get -pip.py](https://bootstrap.pypa.io/get-pip.py) 存在 data下&lt;/span&gt;
+* [Git](https://git-scm.com/download/win)
+* [python](https://www.python.org/downloads/)
+* [scite 編輯器](https://www.scintilla.org/SciTEDownload.html)
+* [Kdiff3](http://kdiff3.sourceforge.net/)
+* [Hxd](https://mh-nexus.de/en/hxd/)
+* [putty](https://www.putty.org/)
+* [Fossi](https://www.fossil-scm.org/index.html/doc/trunk/www/build.wiki)
+* 另外創建一個 Tmp 的資料夾，用來放倉儲
+* 以及把[get -pip.py](https://bootstrap.pypa.io/get-pip.py) 存在 data下
 
 
 
@@ -444,13 +474,193 @@ vertical: body pane on the botton</t>
 [&lt;span style="color:orange;"&gt;利用Google calerder&lt;/span&gt; ](https://www.youtube.com/watch?v=g3I0onpy3AU)
 
 
-&lt;iframe width="250" height="108" src="https://www.youtube.com/embed/g3I0onpy3AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="340" height="190" src="https://www.youtube.com/embed/g3I0onpy3AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 [&lt;span style="color:orange;"&gt;Google meeting進行線上討論&lt;/span&gt; ](https://www.youtube.com/watch?v=Qwg4yCzS4e0)
 
 
-&lt;iframe width="250" height="108" src="https://www.youtube.com/embed/Qwg4yCzS4e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="340" height="190" src="https://www.youtube.com/embed/Qwg4yCzS4e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200623193935.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623193935.2">##  GM帳號設置
+
+
+[&lt;span style="color:orange;"&gt;利用Google API&lt;/span&gt; ](https://www.youtube.com/watch?v=UOaslxra1qQ)
+
+
+&lt;iframe width="350" height="290" src="https://www.youtube.com/embed/UOaslxra1qQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20200623195437.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623195437.2">##  Week12~Week18統整
+
+* Virtualbox網路設定
+* 近端與虛擬主機連線
+* IPV6連線學生個人網站
+
+
+
+
+
+</t>
+<t tx="leo.20200623202531.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623202531.2">##  Virtualbox網路相關設定
+
+&lt;iframe src="https://s40723110.github.io/cd2020/content/week%2012.html" width="750" height="600" &lt;/iframe&gt;
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20200623204514.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623204514.2">## 個人網頁
+
+
+&lt;iframe src="https://s40723110.github.io/cd2020/content/index.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200623204901.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623204901.2">##  近端與虛擬主機連線
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/hlUO5b8ZKdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20200623205039.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623205039.2">##  IPV6連線學生個人網站
+
+&lt;iframe width="750" height="600" src="https://s40723110.github.io/cd2020/content/week%2014.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20200623210144.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623210144.2">##  更新問題py382
+
+
+&lt;iframe src="https://s40723110.github.io/cd2020/content/Question.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200623210338.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623210338.2">##  SSH
+
+
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MgJnce9_s4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200623210552.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623210552.2">##  近端操作相關問題
+
+&lt;iframe width="750" height="700" src="https://s40723110.github.io/cd2020/content/week%2013.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20200623211125.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623211125.2">##  小組meeting
+
+&lt;iframe width="750" height="600" src="https://s40723110.github.io/cd2020/content/Group.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+
 </t>
 </tnodes>
 </leo_file>
