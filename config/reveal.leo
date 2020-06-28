@@ -42,8 +42,11 @@
 <v t="leo.20200617105752.1"><vh>Youtube streamming live + OBS</vh>
 <v t="leo.20200617105752.2"><vh>Youtube streamming live + OBS</vh></v>
 </v>
-<v t="leo.20200617110334.1"><vh>google calender 配合 meeting</vh>
+<v t="leo.20200617110334.1"><vh>google calender 配合 meeting 1</vh>
 <v t="leo.20200617110334.2"><vh>google calender 配合 meeting</vh></v>
+</v>
+<v t="leo.20200628171412.1"><vh>google calender 配合 meeting 2</vh>
+<v t="leo.20200628171412.3"><vh>google calender 配合 meeting</vh></v>
 </v>
 <v t="leo.20200623193935.1"><vh>GM帳號設置</vh>
 <v t="leo.20200623193935.2"><vh>GM帳號設置</vh></v>
@@ -422,9 +425,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200617095924.2">##  Python升級至 3.8.2
 
 
-* [&lt;span style="color:orange;"&gt;流程影片&lt;/span&gt;](https://s40723110.github.io/cd2020/content/basic%20Win10%20portable%20programming.html)
-
-
+* [&lt;span style="color:orange;"&gt;以下流程 : &lt;/span&gt;](https://s40723110.github.io/cd2020/content/basic%20Win10%20portable%20programming.html)
 * [Git](https://git-scm.com/download/win)
 * [python](https://www.python.org/downloads/)
 * [scite 編輯器](https://www.scintilla.org/SciTEDownload.html)
@@ -470,17 +471,10 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200617110334.2">##  google calender 配合 meeting
 
-
-[&lt;span style="color:orange;"&gt;利用Google calerder&lt;/span&gt; ](https://www.youtube.com/watch?v=g3I0onpy3AU)
+[&lt;span style="color:orange;"&gt;利用Google calender&lt;/span&gt; ](https://www.youtube.com/watch?v=g3I0onpy3AU)
 
 
 &lt;iframe width="340" height="190" src="https://www.youtube.com/embed/g3I0onpy3AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-
-[&lt;span style="color:orange;"&gt;Google meeting進行線上討論&lt;/span&gt; ](https://www.youtube.com/watch?v=Qwg4yCzS4e0)
-
-
-&lt;iframe width="340" height="190" src="https://www.youtube.com/embed/Qwg4yCzS4e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20200623193935.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -661,6 +655,22 @@ vertical: body pane on the botton</t>
 
 
 
+</t>
+<t tx="leo.20200628171412.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200628171412.3">##  google calender 配合 meeting
+
+[&lt;span style="color:orange;"&gt;Google meeting進行線上討論&lt;/span&gt; ](https://www.youtube.com/watch?v=Qwg4yCzS4e0)
+
+
+&lt;iframe width="340" height="190" src="https://www.youtube.com/embed/Qwg4yCzS4e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
