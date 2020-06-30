@@ -513,7 +513,7 @@ vertical: body pane on the botton</t>
 * Virtualbox網路設定
 * 近端與虛擬主機連線
 * IPV6連線學生個人網站
-
+* remoteAPI
 
 
 
